@@ -1,12 +1,11 @@
 @import "tailwindcss";
 
 /* ===========================
-   Theme
+   Design Tokens
 =========================== */
 
 :root {
   /* Brand Colors */
-
   --color-primary: #8b263e;
   --color-primary-hover: #731f33;
 
@@ -15,6 +14,7 @@
 
   --color-accent: #3b2a26;
 
+  /* UI Colors */
   --color-background: #faf8f5;
   --color-surface: #ffffff;
 
@@ -27,23 +27,18 @@
   --color-warning: #d97706;
 
   /* Radius */
-
   --radius-sm: 0.5rem;
   --radius-md: 0.75rem;
   --radius-lg: 1rem;
   --radius-xl: 1.5rem;
-
-  /* Shadow */
-
-  --shadow-sm: 0 2px 8px rgba(0,0,0,.06);
-  --shadow-md: 0 8px 24px rgba(0,0,0,.08);
 }
 
 @theme inline {
-
+  /* Fonts */
   --font-sans: var(--font-inter);
   --font-heading: var(--font-playfair);
 
+  /* Colors */
   --color-primary: var(--color-primary);
   --color-secondary: var(--color-secondary);
   --color-accent: var(--color-accent);
@@ -55,14 +50,27 @@
   --color-text-secondary: var(--color-text-secondary);
 
   --color-border: var(--color-border);
+
+  --color-success: var(--color-success);
+  --color-warning: var(--color-warning);
+
+  /* Radius */
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+}
+
+/* ===========================
+   Base Style
+=========================== */
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-
   background: var(--color-background);
-
   color: var(--color-text);
-
   font-family: var(--font-inter);
-
 }
