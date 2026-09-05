@@ -1,4 +1,4 @@
-# 🍢 Warung Sate Solo
+#  Warung Sate Solo
 
 A modern restaurant landing page built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**.
 
@@ -6,7 +6,7 @@ This project is developed as a real-world portfolio website for a local restaura
 
 ---
 
-## ✨ Features
+##  Features
 
 - Modern Landing Page
 - Responsive Design
@@ -26,7 +26,7 @@ This project is developed as a real-world portfolio website for a local restaura
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Next.js (App Router)
 - React
@@ -37,7 +37,7 @@ This project is developed as a real-world portfolio website for a local restaura
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 app/
@@ -52,7 +52,7 @@ types/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 Install dependencies
 
@@ -74,7 +74,7 @@ http://localhost:3000
 
 ---
 
-## 📈 Future Improvements
+##  Future Improvements
 
 - Reservation System
 - Online Ordering
